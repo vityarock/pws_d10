@@ -19,6 +19,5 @@ from cat.views import CarsView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/', CarsView.as_view()),
     path('', CarsView.as_view()),
 ]
